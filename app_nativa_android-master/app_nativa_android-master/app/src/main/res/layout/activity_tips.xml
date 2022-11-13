@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#716C6B"
+    android:backgroundTint="#716C6B"
+    tools:context=".Creditos">
+
+    <TextView
+        android:id="@+id/txtips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/candal"
+        android:text="Tips"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="124dp"
+        android:text=" 1.    No te separes del grupo. Es un factor decisivo de supervivencia individual y colectiva. Si te mantienes unido a tu equipo, podrás cubrir a tus amigos y atacar a tus enemigos desde diferentes ángulos. Desde todo punto estratégico es el factor clave para sobrevivir."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtips"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="397dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="28dp"
+        android:text="2.    Muévete muy rápido y en grupo. En CS: GO, debes moverte rápido, pero también debes hacerlo de forma sincronizada con tus compañeros de equipo. Ya sabes que velocidad y movimiento son dos de las cualidades definen al juego y son su característica principal. Incluso al disparar muévete a la izquierda y a la derecha rápidamente para que no te alcancen las balas enemigas."
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtips"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="413dp"
+        android:layout_height="179dp"
+        android:layout_marginBottom="172dp"
+        android:text="3.    Avanza cubriéndote con los objetos del escenario. Debes aprender a moverte con velocidad salvando los obstáculos. Verás que en los diferentes escenarios encontrarás cientos de objetos de diferentes tamaños. Si sabes aprovecharlos, verás que dejan de ser obstáculos y se convierten en escudos de protección ante las balas enemigas."
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtips"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="407dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtips"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tip" />
+
+    <Button
+        android:id="@+id/btnVolverTips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
